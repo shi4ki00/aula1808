@@ -1,5 +1,5 @@
-let Si = 0
-let Qtde = 0
+let si = 0
+let qtde = 0
 
 while (true) {
     let idade = prompt("Digite a idade (ou 0 para encerrar):")
@@ -8,13 +8,13 @@ while (true) {
         break
     }
     
-    Si += idade
-    Qtde++
+    si += idade
+    qtde++
 }
 
-if (quantidade > 0) {
-    let media = Si / quantidade
-    console.logQtde"A média de idade é:"+ media)
+if (qtde > 0) {
+    let media = si / qtde
+    console.log("A média de idade é:"+ media)
 } else {
     console.log("Nenhuma idade válida foi digitada.")
 }
